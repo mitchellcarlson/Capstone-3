@@ -6,7 +6,13 @@ const mongoose = require('mongoose');
 const should = chai.should();
 
 
+const {
+    app,
+    runServer,
+    closeServer
+} = require('../server');
 
+chai.use(chaiHttp);
 
 
 describe('index page', function () {

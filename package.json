@@ -8,7 +8,9 @@
     "chai-http": "^4.2.1",
     "express": "^4.16.4",
     "mocha": "^6.0.0",
-    "mongoose": "^5.4.14"
+    "mongoose": "^5.4.14",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0"
   },
   "devDependencies": {},
   "scripts": {
