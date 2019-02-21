@@ -1,3 +1,4 @@
+//require('dotenv').config();
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
@@ -7,11 +8,20 @@ app.listen(process.env.PORT || 8080);
 //const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+app.use(morgan('common'));
 const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
+app.use(bodyParser.json());
 const passport = require('passport');
 
 mongoose.Promise = global.Promise;
+
+
+
+const {
+    DATABASE_URL,
+    PORT
+} = require('./config');
 
 
 
