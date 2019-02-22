@@ -1,4 +1,4 @@
-//require('dotenv').config();
+require('dotenv').config();
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
@@ -24,7 +24,7 @@ const {
 } = require('./config');
 
 
-/*
+
 let server;
 
 function runServer(databaseUrl = DATABASE_URL, port = PORT) {
@@ -67,8 +67,8 @@ module.exports = {
     runServer,
     app,
     closeServer
-};*/
-
+};
+/*
 let server; 
 
 function runServer() {
@@ -109,3 +109,4 @@ function runServer() {
   }
   
   module.exports = { app, runServer, closeServer };
+  */
