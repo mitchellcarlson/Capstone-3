@@ -116,6 +116,7 @@ describe('GET endpoint', function () {
 
 
 /*
+//can't get it to work, I will fix later
 describe('POST endpoint', function () {
     it('should post a new reflection', function () {
         const newReflection = generateReflectionData();
