@@ -152,7 +152,7 @@ let server;
 // this function connects to our database, then starts the server
 function runServer(databaseUrl, port = PORT) {
   return new Promise((resolve, reject) => {
-    mongoose.connect(databaseUrl, err => {
+    mongoose.connect(databaseUrl, anp{ useNewUrlParser: true }, err => {
       if (err) {
         return reject(err);
       }
