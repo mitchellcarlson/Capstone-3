@@ -5,4 +5,4 @@ Thinkful (https://thinkful.com/) third Capstone Project - A fullstack app that a
 
 Home Page
 
-![start page](screen-shots/mental-note.homescreen.png)
+![start page](screen-shots/mental-note.homescreen.PNG)
