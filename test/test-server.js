@@ -118,8 +118,7 @@ describe('GET endpoint', function () {
 describe('POST endpoint', function () {
     it('should post a new reflection', function () {
         const newReflection = generateReflectionData();
-        console.log(newReflection.date);
-
+            ]
         return chai.request(app)
             .post('/reflections/new')
             .send(newReflection)

@@ -24,6 +24,16 @@ Available resources for your mental health
 ![Resources](screen-shots/mental-note.resources.PNG)
 
 
+## Overview
+The goal of this app is for users to share how feel about thier current day, with other people. This was made to build a community to show that they are not alone
+
+## Use Case
+The user of this app will be able to post and edit mental-notes. Each entry allows users to enter a date, location, and mood. The user can also view other people mental-notes and delete them if they choose to do so.
+
+## Live version 
+The live version of the app can be found here  https://shrouded-inlet-98709.herokuapp.com
+
+
 
 
 
