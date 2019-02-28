@@ -23,7 +23,6 @@ chai.use(chaiHttp);
 
 
 function seedReflectionData() {
-    console.info('seeding reflection data');
     const seedData = [];
 
     for (let i = 1; i <= 10; i++) {
