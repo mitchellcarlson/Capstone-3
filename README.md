@@ -21,7 +21,7 @@ Example of a mental note
 
 Available resources for your mental health
 
-[Example](screen-shots/mental-note.resources.PNG)
+[Resources](screen-shots/mental-note.resources.PNG)
 
 
 
