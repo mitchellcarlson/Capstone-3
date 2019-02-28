@@ -17,11 +17,11 @@ Seeing all the available mental-notes
 
 Example of a mental note
 
-[Example](screen-shots/mental-note.example.PNG)
+![Example](screen-shots/mental-note.example.PNG)
 
 Available resources for your mental health
 
-[Resources](screen-shots/mental-note.resources.PNG)
+![Resources](screen-shots/mental-note.resources.PNG)
 
 
 
