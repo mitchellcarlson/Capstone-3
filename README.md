@@ -11,5 +11,19 @@ Making a post
 
 ![Posting](screen-shots/mental-note.post.PNG)
 
+Seeing all the available mental-notes
+
+![Geting](screen-shots/mental-note.get.PNG)
+
+Example of a mental note
+
+[Example](screen-shots/mental-note.example.PNG)
+
+Available resources for your mental health
+
+[Example](screen-shots/mental-note.resources.PNG)
+
+
+
 
 
