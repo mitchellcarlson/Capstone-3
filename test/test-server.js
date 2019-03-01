@@ -135,7 +135,6 @@ describe('POST endpoint', function () {
                 return Reflection.findById(res.body._id);
             })
             .then(function (reflection) {
-                console.log(reflection.date);
            //  reflection.date.should.equal(newReflection.date);
                reflection.location.should.equal(newReflection.location);
                 reflection.mood.should.equal(newReflection.mood);
