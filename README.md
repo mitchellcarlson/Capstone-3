@@ -33,7 +33,27 @@ The user of this app will be able to post and edit mental-notes. Each entry allo
 ## Live version 
 The live version of the app can be found here  https://shrouded-inlet-98709.herokuapp.com
 
+## Technology
 
+Front End
+
+* HTML
+* CSS
+* JavaScript
+* jQuery
+
+Back End
+
+* Node.js
+* Express.js
+* mLab
+* Mocha + Chai
+* Travis CI for continuous integration and deployment
+* Heroku
+
+## Responsive
+
+App is built to be responsive across mobile, tablet, laptop, and desktop screen resolutions.
 
 
 
