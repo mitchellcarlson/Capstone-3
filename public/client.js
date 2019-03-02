@@ -364,11 +364,6 @@ function showMenu() {
 };
 
 function hideMenu() {
-    //    $(document).click(function (e) {
-    //        if (e.target.class != 'drpbtn') {
-    //            $(".drpbtn").hide();
-    //        }
-    //    });
     $('li').on('click', function () {
         $('div#myDropdown').hide();
     })
