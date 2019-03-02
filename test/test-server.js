@@ -105,9 +105,6 @@ describe('GET endpoint', function () {
                     .then(function (res) {
                         res.should.have.status(200);
                         res.should.be.json;
-
-                        //why doesn't this line test anything?
-                       // res.body.should.have.length.at.least(1);
                     });
             });
     });
