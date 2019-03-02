@@ -124,7 +124,6 @@ describe('POST endpoint', function () {
                 res.should.be.json;
                 res.body.should.be.a('object');
                 res.body.should.include.keys( `_id`,`text`,`mood`, `date`,`location`);
-                // Date.parse(res.body.date).should.equal(Date.parse(newReflection.date));
                 res.body._id.should.not.be.null;
                 res.body.location.should.equal(newReflection.location);
                 res.body.mood.should.equal(newReflection.mood);
@@ -132,7 +131,6 @@ describe('POST endpoint', function () {
                 return Reflection.findById(res.body._id);
             })
             .then(function (reflection) {
-           //  reflection.date.should.equal(newReflection.date);
                reflection.location.should.equal(newReflection.location);
                 reflection.mood.should.equal(newReflection.mood);
                 reflection.text.should.equal(newReflection.text);
