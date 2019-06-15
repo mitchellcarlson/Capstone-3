@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background: #65869f;
-  background: url("https://thoughtcatalog.files.wordpress.com/2017/03/stocksnap_fx3kscksrp.jpg?w=1140&h=760");
+  background: url("https://cdn2.collective-evolution.com/assets/uploads/2018/08/dream.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -303,6 +303,11 @@ navigation ul li {
 .current-reflection p {
     display: inline;
 }
+
+#reflections-container {
+  text-align: center;
+  color: #898281;
+} 
 
 
 /*****FOOTER****/
