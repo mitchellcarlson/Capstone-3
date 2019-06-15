@@ -1,34 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Mental-note" />
-     <meta property="og:description" content="A fullstack app that allows users to anonymous post and share their experiences and find resources regarding mental health." />
-    <meta property="og:type" content="website" />
-    <title>Mental-Notes</title>
+    <meta property="title" content="Dream Journal" />
+     <meta property="description" content="A fullstack app that allows users to anonymous post and share their experiences and find resources regarding Dreams." />
+    <meta property="type" content="website" />
+    <title>Dream Journal</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto:400,500,700" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" />
+    <link href="main.css" rel="stylesheet" />
 </head>
 
 <body>
     <header role="banner">
         <div class="header-container">
-            <h1>Take time out of your day to reflect</h1>
-            <p>Express your thoughts and share them with others </p>
+            <h1>My Dream Journal</h1>
+            <p>Open the menu to add a new entry</p>
         </div>
     </header>
 
     <navigation role="navigation" class="row">
         <div class="dropdown">
-            <button class="dropbtn"><img src="pictures/noun_629469_cc.png"><p>&nbsp;&nbsp;Menu</p></button>
+            <button class="dropbtn"><p>Menu</p></button>
             <div id="myDropdown" class="dropdown-content">
                 <ul>
-                    <li id="nav-create-button" class="nav-button"><img src="/pictures/noun_302005_cc.png">&nbsp;&nbsp;&nbsp;Create New Entry</li>
-                    <li id="nav-view-button" class="nav-button"><img src="/pictures/noun_302002_cc.png">&nbsp;&nbsp;&nbsp;View all Entries</li>
-                    <li id="nav-resources-button" class="nav-button"><img src="/pictures/noun_302004_cc.png">&nbsp;&nbsp;&nbsp;Resources</li>
+                    <li id="nav-create-button" class="nav-button">Create New Entry</li>
+                    <li id="nav-view-button" class="nav-button">View all Entries</li>
+                    <li id="nav-resources-button" class="nav-button">Resources</li>
                 </ul>
             </div>
         </div>
@@ -36,15 +37,15 @@
 
 
     <section class="start-page row ">
-        <h2>Let your mind rest easy</h2>
-        <img src="/pictures/meditation.jpg">
-        <p>Share how you felt about your day, while building a community with others</p>
+        <h2>Let your dreams wander</h2>
+
+        <p>Share your thoughts</p>
     </section>
 
     <section id="new-entry" class="hide-display row">
         <form method="post" id="new-reflection">
             <fieldset>
-                <legend class="section-header">Write a reflection</legend>
+                <legend class="section-header">Document your dream</legend>
                 <label>Date:</label><br>
                 <input type="text" id="date" name="date" required><br>
                 <label>Location:</label><br>
@@ -53,11 +54,11 @@
                 <select name="mood" id="mood"><br>
                         <option>Happy</option>
                         <option>Calm</option>
-                        <option>Angry/Frustrated</option>
+                        <option>Angry</option>
                         <option>Anxious</option>
-                        <option>Sad/Upset/Depressed</option>
+                        <option>Sad</option>
                     </select><br>
-                <label>Reflect on it:</label><br>
+                <label>What do you remember?</label><br>
                 <textarea name="text " id="text " rows="4" cols="50" required></textarea><br>
                 <button type="submit " id="new-submit-button ">Submit</button>
             </fieldset>
@@ -66,7 +67,8 @@
     </section>
 
     <section id="reflections-container" class="hide-display row">
-        <h1 class="section-header">Mental-Notes</h1>
+        <h1 class="section-header">Past Dreams</h1>
+        <p>Nothing to show</p>
 
         <div id="reflections">
         </div>
@@ -74,26 +76,16 @@
 
     <section id="resources" class="hide-display row">
         <h1 class="section-header">Resources</h1>
-        <p><b>Call 211 (in U.S. or Canada) for the following services:</b>
-        </p>
-        <ul>
-            <li>Basic human needs resources</li>
-            <li>Physical &#38; mental health resources</li>
-            <li>Work support</li>
-            <li>Support for senior citizens and persons with disabilities</li>
-            <li>Support for children, youth, and families</li>
-        </ul>
+        <p><b>To learn What dreams mean:</b></p>
+        <a href="https://www.tuck.com/dream-guide/" target="blank">Common Dreams</a>
         <p><b>Struggling with anxiety? Visit:</b></p>
-        <a href="http://www.anxietysocialnet.com/ ">Anxiety Social Net</a>
-        <p><b>Struggling with depression? Visit:</b></p>
-        <a href="http://www.dbsalliance.org/site/PageServer?pagename=home ">DBS Alliance</a>
-        <p><b>Don't forget you can always reach out to your friends and family for support!</b></p>
+        <a href="http://www.anxietysocialnet.com/ " target="blank">Anxiety Social Net</a>
     </section>
 
     <footer class="footer">
-        <a href="https://github.com/Richardek" target="_blank "><img src="social/github-icon-80.png " alt="github icon "></a>&nbsp;
-        <a href="mailto:richgametv@gmail.com "><img src="social/mail-icon-80.png " alt="email icon "></a>
-        <p>Created by Richard McBride</p>
+        <a href="https://github.com/Mitch4444?tab=repositories" target="_blank ">Github</a>
+        <a href="mailto:mitchellcarlson11@gmail.com " target="_blank ">Email</a>
+        <p>Created by Mitchell Carlson</p>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin=" anonymous "></script>
